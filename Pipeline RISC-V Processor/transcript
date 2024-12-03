@@ -1,0 +1,48 @@
+# Reading pref.tcl
+# OpenFile C:/Users/Asus/Desktop/A4/pipeline.mpf
+# Loading project pipeline
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 17:16:20 on Jun 24,2024
+# Loading work.testbench
+# Loading work.toplevel
+# Loading work.datapath
+# Loading work.Register
+# Loading work.IF_ID_regs
+# Loading work.ID_EX_regs
+# Loading work.DFF
+# Loading work.EX_MEM_regs
+# Loading work.MEM_WB_regs
+# Loading work.MUX2to1
+# Loading work.MUX3to1
+# Loading work.MUX4to1
+# Loading work.Adder
+# Loading work.Instruction_Memory
+# Loading work.Data_Memory
+# Loading work.Register_File
+# Loading work.ALU
+# Loading work.Immediate_Extend
+# Loading work.controller
+# Loading work.PCselect
+# Loading work.hazards
+add wave -position insertpoint sim:/testbench/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Asus  Hostname: DESKTOP-D71FKLS  ProcessID: 21996
+#           Attempting to use alternate WLF file "./wlftdkcyxy".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftdkcyxy
+run -all
+# ** Note: $stop    : C:/Users/Asus/Desktop/A4/testbench.v(13)
+#    Time: 5022 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at C:/Users/Asus/Desktop/A4/testbench.v line 13
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/Asus/Desktop/A4/testbench.v(13)
+#    Time: 5022 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at C:/Users/Asus/Desktop/A4/testbench.v line 13
+# End time: 17:19:54 on Jun 24,2024, Elapsed time: 0:03:34
+# Errors: 0, Warnings: 1

@@ -1,0 +1,50 @@
+C:/Users/Asus/Desktop/A3/testbench.v {1 {vlog -work work -stats=none C:/Users/Asus/Desktop/A3/testbench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testBench
+
+Top level modules:
+	testBench
+
+} {} {}} C:/Users/Asus/Desktop/A3/controller.v {1 {vlog -work work -stats=none C:/Users/Asus/Desktop/A3/controller.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} C:/Users/Asus/Desktop/A3/components.v {1 {vlog -work work -stats=none C:/Users/Asus/Desktop/A3/components.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module register32
+-- Compiling module memory
+-- Compiling module register_file
+-- Compiling module ALU
+-- Compiling module MUX2to1
+-- Compiling module MUX3to1
+-- Compiling module MUX4to1
+-- Compiling module immediate_extend
+
+Top level modules:
+	register32
+	memory
+	register_file
+	ALU
+	MUX2to1
+	MUX3to1
+	MUX4to1
+	immediate_extend
+
+} {} {}} C:/Users/Asus/Desktop/A3/toplevel.v {1 {vlog -work work -stats=none C:/Users/Asus/Desktop/A3/toplevel.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module toplevel
+
+Top level modules:
+	toplevel
+
+} {} {}} C:/Users/Asus/Desktop/A3/datapath.v {1 {vlog -work work -stats=none C:/Users/Asus/Desktop/A3/datapath.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}}

@@ -1,0 +1,143 @@
+# Reading pref.tcl
+# OpenFile C:/Users/Asus/Desktop/A2/single_cycle.mpf
+# Loading project single_cycle
+# Compile of components.v was successful.
+# Compile of controller.v was successful.
+# Compile of datapath.v was successful.
+# Compile of testbench.v was successful.
+# Compile of toplevel.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.testBench
+# vsim -gui work.testBench 
+# Start time: 21:36:09 on May 10,2024
+# Loading work.testBench
+# Loading work.toplevel
+# Loading work.datapath
+# Loading work.PC
+# Loading work.instruction_memory
+# Loading work.register_file
+# Loading work.ALU
+# Loading work.data_memory
+# Loading work.immediate_extend
+# Loading work.adder
+# Loading work.MUX2to1
+# Loading work.MUX3to1
+# Loading work.MUX4to1
+# Loading work.controller
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (1) for port 'pc_in'. The port definition is at: C:/Users/Asus/Desktop/A2/components.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /testBench/TL/DP/pc File: C:/Users/Asus/Desktop/A2/datapath.v Line: 7
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'rst'. The port definition is at: C:/Users/Asus/Desktop/A2/components.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /testBench/TL/DP/pc File: C:/Users/Asus/Desktop/A2/datapath.v Line: 7
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (32) for port 'pc_out'. The port definition is at: C:/Users/Asus/Desktop/A2/components.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /testBench/TL/DP/pc File: C:/Users/Asus/Desktop/A2/datapath.v Line: 7
+add wave -position end sim:/testBench/*
+add wave -position end sim:/testBench/TL/DP/*
+add wave -position end sim:/testBench/TL/CU/*
+add wave -position end  /testBench/TL/DP/RF/Rmemory
+add wave -position end  /testBench/TL/DP/DM/Dmemory
+run -all
+# ** Note: $stop    : C:/Users/Asus/Desktop/A2/testbench.v(13)
+#    Time: 5030 ns  Iteration: 0  Instance: /testBench
+# Break in Module testBench at C:/Users/Asus/Desktop/A2/testbench.v line 13
+quit -sim
+# End time: 21:38:03 on May 10,2024, Elapsed time: 0:01:54
+# Errors: 0, Warnings: 5
+# Load canceled
+vsim -gui work.testBench
+# vsim -gui work.testBench 
+# Start time: 21:42:41 on May 10,2024
+# Loading work.testBench
+# Loading work.toplevel
+# Loading work.datapath
+# Loading work.PC
+# Loading work.instruction_memory
+# Loading work.register_file
+# Loading work.ALU
+# Loading work.data_memory
+# Loading work.immediate_extend
+# Loading work.adder
+# Loading work.MUX2to1
+# Loading work.MUX3to1
+# Loading work.MUX4to1
+# Loading work.controller
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (1) for port 'pc_in'. The port definition is at: C:/Users/Asus/Desktop/A2/components.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /testBench/TL/DP/pc File: C:/Users/Asus/Desktop/A2/datapath.v Line: 7
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'rst'. The port definition is at: C:/Users/Asus/Desktop/A2/components.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /testBench/TL/DP/pc File: C:/Users/Asus/Desktop/A2/datapath.v Line: 7
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (32) for port 'pc_out'. The port definition is at: C:/Users/Asus/Desktop/A2/components.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /testBench/TL/DP/pc File: C:/Users/Asus/Desktop/A2/datapath.v Line: 7
+add wave -position end sim:/testBench/*
+add wave -position end sim:/testBench/TL/*
+run -all
+# ** Note: $stop    : C:/Users/Asus/Desktop/A2/testbench.v(13)
+#    Time: 5030 ns  Iteration: 0  Instance: /testBench
+# Break in Module testBench at C:/Users/Asus/Desktop/A2/testbench.v line 13
+quit -sim
+# End time: 21:44:09 on May 10,2024, Elapsed time: 0:01:28
+# Errors: 0, Warnings: 4
+# Load canceled
+# Compile of components.v was successful.
+# Compile of controller.v was successful.
+# Compile of datapath.v was successful.
+# Compile of testbench.v was successful.
+# Compile of toplevel.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.testBench
+# vsim -gui work.testBench 
+# Start time: 21:46:38 on May 10,2024
+# Loading work.testBench
+# Loading work.toplevel
+# Loading work.datapath
+# Loading work.PC
+# Loading work.instruction_memory
+# Loading work.register_file
+# Loading work.ALU
+# Loading work.data_memory
+# Loading work.immediate_extend
+# Loading work.adder
+# Loading work.MUX2to1
+# Loading work.MUX3to1
+# Loading work.MUX4to1
+# Loading work.controller
+add wave -position end sim:/testBench/*
+add wave -position end sim:/testBench/TL/*
+run -all
+# ** Note: $stop    : C:/Users/Asus/Desktop/A2/testbench.v(13)
+#    Time: 5030 ns  Iteration: 0  Instance: /testBench
+# Break in Module testBench at C:/Users/Asus/Desktop/A2/testbench.v line 13
+quit -sim
+# End time: 21:47:20 on May 10,2024, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 2
+# Compile of components.v was successful.
+# Compile of controller.v was successful.
+# Compile of datapath.v was successful.
+# Compile of testbench.v was successful.
+# Compile of toplevel.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.testBench
+# vsim -gui work.testBench 
+# Start time: 22:40:42 on May 10,2024
+# Loading work.testBench
+# Loading work.toplevel
+# Loading work.datapath
+# Loading work.PC
+# Loading work.instruction_memory
+# Loading work.register_file
+# Loading work.ALU
+# Loading work.data_memory
+# Loading work.immediate_extend
+# Loading work.adder
+# Loading work.MUX2to1
+# Loading work.MUX3to1
+# Loading work.MUX4to1
+# Loading work.controller
+add wave -position end sim:/testBench/*
+add wave -position end  /testBench/TL/DP/RF/Rmemory
+add wave -position end  /testBench/TL/DP/DM/Dmemory
+run -all
+# ** Note: $stop    : C:/Users/Asus/Desktop/A2/testbench.v(13)
+#    Time: 5030 ns  Iteration: 0  Instance: /testBench
+# Break in Module testBench at C:/Users/Asus/Desktop/A2/testbench.v line 13
+quit -sim
+# End time: 23:04:54 on May 10,2024, Elapsed time: 0:24:12
+# Errors: 0, Warnings: 2
